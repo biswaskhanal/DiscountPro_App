@@ -13,18 +13,23 @@ namespace MauiApp2
 
         private void LoadStores()
         {
-            List<string> stores = new List<string> // List of stores
+            List<Store> stores = new List<Store> // List of stores with name and logo
             {
-                "Walmart",
-                "Costco",
-                "Real Canadian Superstore",
-                "Nike",
-                "Lululemon",
-                "Converse",
-                "Food Basics"
+                new Store { Name = "Walmart", Logo = "walmart.png" },
+                new Store { Name = "Costco", Logo = "costco.png" },
+                new Store { Name = "Real Canadian Superstore", Logo = "superstore.png" },
+                new Store { Name = "Nike", Logo = "nike.png" },
+                new Store { Name = "Lululemon", Logo = "lulu.png" },
+                new Store { Name = "Food Basics", Logo = "foodb.jpeg" }
             };
 
             storeListView.ItemsSource = stores;
         }
+    }
+
+    public class Store
+    {
+        public string Name { get; set; }
+        public string Logo { get; set; }
     }
 }
