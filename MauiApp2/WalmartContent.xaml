@@ -1,8 +1,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp2.WalmartContent">
-    <StackLayout>
-        <Image Source="contentwalmart.jpeg" WidthRequest="200" HeightRequest="200" />
-      
-    </StackLayout>
+    <ScrollView>
+        <StackLayout >
+            <Image Source="contentwalmart.jpeg" WidthRequest="200" HeightRequest="200" />
+            <Image Source="walmartimg2.jpg" WidthRequest="200" HeightRequest="200" />
+
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

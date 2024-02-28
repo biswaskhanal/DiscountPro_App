@@ -64,6 +64,7 @@
 	  <None Remove="Resources\Images\nike.png" />
 	  <None Remove="Resources\Images\superstore.png" />
 	  <None Remove="Resources\Images\walmart.png" />
+	  <None Remove="Resources\Images\walmartimg2.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
