@@ -32,8 +32,10 @@ namespace MauiApp2
             {
                 // Navigate to the new page
                 await Navigation.PushAsync(new WalmartContent());
+           
             }
         }
+        
 
     }
 

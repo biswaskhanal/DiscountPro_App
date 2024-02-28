@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiApp2", "MauiApp2\MauiAp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2B096AA-6194-426D-AF13-8A3B49FD59B1}"
 	ProjectSection(SolutionItems) = preProject
+		CostcoContent.xaml = CostcoContent.xaml
+		CostcoContent.xaml.cs = CostcoContent.xaml.cs
 		WalmartContent.xaml = WalmartContent.xaml
 		WalmartContent.xaml.cs = WalmartContent.xaml.cs
 	EndProjectSection
