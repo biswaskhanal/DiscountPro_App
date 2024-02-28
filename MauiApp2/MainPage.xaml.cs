@@ -26,14 +26,15 @@ namespace MauiApp2
             storeListView.ItemsSource = stores;
         }
 
-        private void OnStoreTapped(object sender, ItemTappedEventArgs e)
+        private async void OnStoreTapped(object sender, ItemTappedEventArgs e)
         {
             if (e.Item is Store store && store.Name == "Walmart")
             {
-                storeImage.Source = "contentwalmart.jpeg";
+                // Navigate to the new page
+                await Navigation.PushAsync(new WalmartContent());
             }
-            
         }
+
     }
 
     public class Store
