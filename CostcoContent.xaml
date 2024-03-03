@@ -3,8 +3,8 @@
              x:Class="MauiApp2.WalmartContent">
     <ScrollView>
         <StackLayout >
-            <Image Source="contentwalmart.jpeg" WidthRequest="200" HeightRequest="200" />
-            <Image Source="walmartimg2.jpg" WidthRequest="200" HeightRequest="200" />
+            <Image Source="costcoimg.jpeg" WidthRequest="200" HeightRequest="200" />
+            
 
         </StackLayout>
     </ScrollView>
