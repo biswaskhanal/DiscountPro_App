@@ -13,7 +13,7 @@ namespace MauiApp2
 
         private void LoadStores()
         {
-            List<Store> stores = new List<Store> // List of stores with name and logo
+            List<Store> stores = new List<Store> ///// List of stores with name and logo
             {
                 new Store { Name = "Walmart", Logo = "walmart.png" },
                 new Store { Name = "Costco", Logo = "costco.png" },
