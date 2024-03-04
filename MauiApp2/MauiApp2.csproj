@@ -62,11 +62,13 @@
 	  <None Remove="Resources\Images\costcoimg.jpeg" />
 	  <None Remove="Resources\Images\costco_img_1.png" />
 	  <None Remove="Resources\Images\costco_img_2.png" />
+	  <None Remove="Resources\Images\foodb.jpeg" />
 	  <None Remove="Resources\Images\foodbasics_img_1.png" />
 	  <None Remove="Resources\Images\foodbasics_img_2.png" />
 	  <None Remove="Resources\Images\lulu.png" />
 	  <None Remove="Resources\Images\nike.png" />
 	  <None Remove="Resources\Images\superstore.png" />
+	  <None Remove="Resources\Images\walmart.png" />
 	  <None Remove="Resources\Images\walmart_img_1.png" />
 	  <None Remove="Resources\Images\walmart_img_2.png" />
 	</ItemGroup>
