@@ -28,14 +28,21 @@ namespace MauiApp2
 
         private async void OnStoreTapped(object sender, ItemTappedEventArgs e)
         {
-            if (e.Item is Store store && store.Name == "Walmart")
+            if (e.Item is Store store)
             {
-                // Navigate to the new page
-                await Navigation.PushAsync(new WalmartContent());
-           
+                switch (store.Name)
+                {
+                    case "Walmart":
+                        await Navigation.PushAsync(new WalmartContent());
+                        break;
+                    case "Costco":
+                        await Navigation.PushAsync(new CostcoContentt());
+                        break;
+                        
+                }
             }
         }
-        
+
 
     }
 

@@ -80,6 +80,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="CostcoContentt.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="WalmartContent.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
