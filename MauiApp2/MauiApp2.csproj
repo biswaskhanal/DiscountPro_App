@@ -67,6 +67,7 @@
 	  <None Remove="Resources\Images\costco_img5.png" />
 	  <None Remove="Resources\Images\foodbasics_img1.png" />
 	  <None Remove="Resources\Images\foodbasics_img2.png" />
+	  <None Remove="Resources\Images\foodbasics_img3.png" />
 	  <None Remove="Resources\Images\lulu.png" />
 	  <None Remove="Resources\Images\nike.png" />
 	  <None Remove="Resources\Images\superstore.png" />
