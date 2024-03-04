@@ -60,10 +60,12 @@
 	  <None Remove="Resources\Images\contentwalmart.jpeg" />
 	  <None Remove="Resources\Images\costco.png" />
 	  <None Remove="Resources\Images\costcoimg.jpeg" />
+	  <None Remove="Resources\Images\Costco_img1.png" />
 	  <None Remove="Resources\Images\foodb.jpeg" />
 	  <None Remove="Resources\Images\lulu.png" />
 	  <None Remove="Resources\Images\nike.png" />
 	  <None Remove="Resources\Images\superstore.png" />
+	  <None Remove="Resources\Images\Walmart.img3.jpg" />
 	  <None Remove="Resources\Images\walmart.png" />
 	  <None Remove="Resources\Images\walmartimg2.jpg" />
 	</ItemGroup>
