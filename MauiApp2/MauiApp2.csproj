@@ -61,6 +61,7 @@
 	  <None Remove="Resources\Images\costco.png" />
 	  <None Remove="Resources\Images\costcoimg.jpeg" />
 	  <None Remove="Resources\Images\costco_img_1.png" />
+	  <None Remove="Resources\Images\costco_img_2.png" />
 	  <None Remove="Resources\Images\lulu.png" />
 	  <None Remove="Resources\Images\nike.png" />
 	  <None Remove="Resources\Images\superstore.png" />
