@@ -73,6 +73,9 @@
 	  <None Remove="Resources\Images\lulu_img_1.png" />
 	  <None Remove="Resources\Images\lulu_img_2.png" />
 	  <None Remove="Resources\Images\lulu_img_3.png" />
+	  <None Remove="Resources\Images\lulu_img_4.png" />
+	  <None Remove="Resources\Images\lulu_img_5.png" />
+	  <None Remove="Resources\Images\lulu_img_6.png" />
 	  <None Remove="Resources\Images\nike.png" />
 	  <None Remove="Resources\Images\superstore.png" />
 	  <None Remove="Resources\Images\walmart.png" />
