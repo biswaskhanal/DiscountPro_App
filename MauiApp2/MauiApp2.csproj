@@ -72,6 +72,8 @@
 	  <None Remove="Resources\Images\foodb.jpeg" />
 	  <None Remove="Resources\Images\foodbasics_img_1.png" />
 	  <None Remove="Resources\Images\foodbasics_img_2.png" />
+	  <None Remove="Resources\Images\foodbasics_img_3.png" />
+	  <None Remove="Resources\Images\foodbasics_img_4.png" />
 	  <None Remove="Resources\Images\lulu.png" />
 	  <None Remove="Resources\Images\lulu_img_1.png" />
 	  <None Remove="Resources\Images\lulu_img_2.png" />
