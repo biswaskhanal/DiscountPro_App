@@ -87,6 +87,9 @@
 	  <None Remove="Resources\Images\walmart.png" />
 	  <None Remove="Resources\Images\walmart_img_1.png" />
 	  <None Remove="Resources\Images\walmart_img_2.png" />
+	  <None Remove="Resources\Images\walmart_img_3.png" />
+	  <None Remove="Resources\Images\walmart_img_4.png" />
+	  <None Remove="Resources\Images\wlamart_img_5.png" />
 	</ItemGroup>
 
 	<ItemGroup>
