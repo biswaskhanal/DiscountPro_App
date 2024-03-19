@@ -6,6 +6,9 @@
         <StackLayout >
             <Image Source="costco_img_1.png" WidthRequest="200" HeightRequest="200" />
             <Image Source="costco_img_2.png" WidthRequest="200" HeightRequest="200" />
+            <Image Source="costco_img_3.png" WidthRequest="200" HeightRequest="200" />
+            <Image Source="costco_img_4.png" WidthRequest="200" HeightRequest="200" />
+            <Image Source="costco_img_5.png" WidthRequest="200" HeightRequest="200" />
 
         </StackLayout>
     </ScrollView>
