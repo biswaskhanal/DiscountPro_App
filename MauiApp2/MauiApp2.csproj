@@ -57,10 +57,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Remove="Resources\Images\CostcoContentt.xaml.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <None Remove="Resources\Images\contentwalmart.jpeg" />
 	  <None Remove="Resources\Images\costco.png" />
 	  <None Remove="Resources\Images\costcoimg.jpeg" />
@@ -91,6 +87,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="CostcoContentt.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="LuluContent.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="WalmartContent.xaml">

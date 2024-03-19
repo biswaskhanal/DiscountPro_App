@@ -38,7 +38,10 @@ namespace MauiApp2
                     case "Costco":
                         await Navigation.PushAsync(new CostcoContentt());
                         break;
-                        
+                    case "Lululemon":
+                        await Navigation.PushAsync(new LuluContent());
+                        break;
+
                 }
             }
         }
