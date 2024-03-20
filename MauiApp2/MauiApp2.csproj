@@ -80,6 +80,9 @@
 	  <None Remove="Resources\Images\nike_img_1.png" />
 	  <None Remove="Resources\Images\nike_img_2.png" />
 	  <None Remove="Resources\Images\nike_img_3.png" />
+	  <None Remove="Resources\Images\nike_img_4.png" />
+	  <None Remove="Resources\Images\nike_img_5.png" />
+	  <None Remove="Resources\Images\nike_img_6.png" />
 	  <None Remove="Resources\Images\superstore.png" />
 	  <None Remove="Resources\Images\superstore_img_1.png" />
 	  <None Remove="Resources\Images\superstore_img_2.png" />
