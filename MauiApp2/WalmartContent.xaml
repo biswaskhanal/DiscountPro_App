@@ -1,15 +1,41 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiApp2.WalmartContent">
-    <ScrollView>
-        <FlexLayout JustifyContent="Center" Wrap="Wrap">
-            <Image Source="walmart_img_1.png" WidthRequest="200" HeightRequest="200" Margin="5"/>
-            <Image Source="walmart_img_2.png" WidthRequest="200" HeightRequest="200" Margin="5"/>
-            <Image Source="walmart_img_3.png" WidthRequest="200" HeightRequest="200" Margin="5"/>
-            <Image Source="walmart_img_4.png" WidthRequest="200" HeightRequest="200" Margin="5"/>
-            <Image Source="walmart_img_5.png" WidthRequest="200" HeightRequest="200" Margin="5"/>
-           
+             x:Class="MauiApp2.WalmartContent"
+             BackgroundColor="#f0f0f0">
+    <!-- Set a light background color for the page -->
 
-        </FlexLayout>
+    <ScrollView>
+        <StackLayout Padding="10" Spacing="10">
+            <!-- Added padding and spacing for better layout -->
+
+            <!-- Added a header with a title -->
+            <Label Text="Welcome to Walmart" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+
+            <FlexLayout JustifyContent="Center" Wrap="Wrap" Margin="0,10,0,0">
+                <!-- Centered the FlexLayout and added margin -->
+
+                <!-- Added images with rounded corners -->
+                <Frame CornerRadius="10" HasShadow="True">
+                    <Image Source="walmart_img_1.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="True">
+                    <Image Source="walmart_img_2.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="True">
+                    <Image Source="walmart_img_3.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="True">
+                    <Image Source="walmart_img_4.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+
+                
+
+            </FlexLayout>
+
+        </StackLayout>
+        
     </ScrollView>
 </ContentPage>

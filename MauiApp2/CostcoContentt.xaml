@@ -3,14 +3,40 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp2.CostcoContentt">
     <ScrollView>
-        <StackLayout >
-            <Image Source="costco_img_1.png" WidthRequest="200" HeightRequest="200" />
-            <Image Source="costco_img_2.png" WidthRequest="200" HeightRequest="200" />
-            <Image Source="costco_img_3.png" WidthRequest="200" HeightRequest="200" />
-            <Image Source="costco_img_4.png" WidthRequest="200" HeightRequest="200" />
-            <Image Source="costco_img_5.png" WidthRequest="200" HeightRequest="200" />
+        <StackLayout Padding="10" Spacing="10">
+            <!-- Added padding and spacing for better layout -->
+
+            <!-- Added a header with a title -->
+            <Label Text="Welcome to Costco" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+
+            <FlexLayout JustifyContent="Center" Wrap="Wrap" Margin="0,10,0,0">
+                <!-- Centered the FlexLayout and added margin -->
+
+                <!-- Added images with rounded corners -->
+                <Frame CornerRadius="10" HasShadow="True">
+                    <Image Source="costco_img_1.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="True">
+                    <Image Source="costco_img_2.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="True">
+                    <Image Source="costco_img_3.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="True">
+                    <Image Source="costco_img_4.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+                <Frame CornerRadius="10" HasShadow="True">
+                    <Image Source="costco_img_5.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+
+
+
+            </FlexLayout>
 
         </StackLayout>
+
     </ScrollView>
-       
 </ContentPage>
