@@ -1,4 +1,3 @@
-
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp2.CostcoContentt">
@@ -13,27 +12,29 @@
                 <!-- Centered the FlexLayout and added margin -->
 
                 <!-- Added images with rounded corners -->
-                <Frame CornerRadius="10" HasShadow="True">
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#FF5733">
+                    <!-- Orange background -->
                     <Image Source="costco_img_1.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
 
-                <Frame CornerRadius="10" HasShadow="True">
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#C70039">
+                    <!-- Dark red background -->
                     <Image Source="costco_img_2.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
 
-                <Frame CornerRadius="10" HasShadow="True">
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#900C3F">
+                    <!-- Purple background -->
                     <Image Source="costco_img_3.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
 
-                <Frame CornerRadius="10" HasShadow="True">
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#581845">
+                    <!-- Dark purple background -->
                     <Image Source="costco_img_4.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
-                <Frame CornerRadius="10" HasShadow="True">
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#17202A">
+                    <!-- Dark blue background -->
                     <Image Source="costco_img_5.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
-
-
-
             </FlexLayout>
 
         </StackLayout>
