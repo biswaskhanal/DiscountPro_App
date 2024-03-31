@@ -6,10 +6,13 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Orientation="Horizontal">
-                            <Image Source="{Binding Logo}" WidthRequest="50" HeightRequest="70" />
-                            <Label Text="{Binding Name}" VerticalOptions="Center" Margin="10,0,0,0" />
-                        </StackLayout>
+                        <!-- Adding Frame around each list item with a colored border -->
+                        <Frame BorderColor="#3498db" BackgroundColor="#ecf0f1" CornerRadius="5" Padding="5" Margin="5">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding Logo}" WidthRequest="50" HeightRequest="70" />
+                                <Label Text="{Binding Name}" VerticalOptions="Center" Margin="10,0,0,0" />
+                            </StackLayout>
+                        </Frame>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
