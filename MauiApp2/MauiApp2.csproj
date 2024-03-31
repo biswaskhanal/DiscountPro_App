@@ -57,18 +57,30 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Remove="Resources\Images\CostcoContentt.xaml.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <None Remove="Resources\Images\contentwalmart.jpeg" />
 	  <None Remove="Resources\Images\costco.png" />
 	  <None Remove="Resources\Images\costcoimg.jpeg" />
 	  <None Remove="Resources\Images\costco_img_1.png" />
+	  <None Remove="Resources\Images\costco_img_10.png" />
 	  <None Remove="Resources\Images\costco_img_2.png" />
+	  <None Remove="Resources\Images\costco_img_3.png" />
+	  <None Remove="Resources\Images\costco_img_4.png" />
+	  <None Remove="Resources\Images\costco_img_5.png" />
+	  <None Remove="Resources\Images\costco_img_6.png" />
+	  <None Remove="Resources\Images\costco_img_7.png" />
+	  <None Remove="Resources\Images\costco_img_8.png" />
+	  <None Remove="Resources\Images\costco_img_9.png" />
 	  <None Remove="Resources\Images\foodb.jpeg" />
 	  <None Remove="Resources\Images\foodbasics_img_1.png" />
+	  <None Remove="Resources\Images\foodbasics_img_10.png" />
 	  <None Remove="Resources\Images\foodbasics_img_2.png" />
+	  <None Remove="Resources\Images\foodbasics_img_3.png" />
+	  <None Remove="Resources\Images\foodbasics_img_4.png" />
+	  <None Remove="Resources\Images\foodbasics_img_5.png" />
+	  <None Remove="Resources\Images\foodbasics_img_6.png" />
+	  <None Remove="Resources\Images\foodbasics_img_7.png" />
+	  <None Remove="Resources\Images\foodbasics_img_8.png" />
+	  <None Remove="Resources\Images\foodbasics_img_9.png" />
 	  <None Remove="Resources\Images\lulu.png" />
 	  <None Remove="Resources\Images\lulu_img_1.png" />
 	  <None Remove="Resources\Images\lulu_img_2.png" />
@@ -79,7 +91,15 @@
 	  <None Remove="Resources\Images\superstore.png" />
 	  <None Remove="Resources\Images\walmart.png" />
 	  <None Remove="Resources\Images\walmart_img_1.png" />
+	  <None Remove="Resources\Images\walmart_img_10.png" />
 	  <None Remove="Resources\Images\walmart_img_2.png" />
+	  <None Remove="Resources\Images\walmart_img_3.png" />
+	  <None Remove="Resources\Images\walmart_img_4.png" />
+	  <None Remove="Resources\Images\walmart_img_6.png" />
+	  <None Remove="Resources\Images\walmart_img_7.png" />
+	  <None Remove="Resources\Images\walmart_img_8.png" />
+	  <None Remove="Resources\Images\walmart_img_9.png" />
+	  <None Remove="Resources\Images\wlamart_img_5.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -90,6 +110,12 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="CostcoContentt.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="FoodbContent.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="LuluContent.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="WalmartContent.xaml">

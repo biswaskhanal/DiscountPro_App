@@ -1,14 +1,12 @@
 ﻿using Microsoft.Maui.Controls;
-using System;
 
 namespace MauiApp2
 {
-    public partial class WalmartContent : ContentPage
+    public partial class LuluContent : ContentPage
     {
-        public WalmartContent()
+        public LuluContent()
         {
             InitializeComponent();
         }
-
     }
 }

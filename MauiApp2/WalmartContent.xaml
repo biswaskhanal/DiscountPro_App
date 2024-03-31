@@ -2,10 +2,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp2.WalmartContent">
     <ScrollView>
-        <StackLayout >
-            <Image Source="walmart_img_1.png" WidthRequest="200" HeightRequest="200" />
-            <Image Source="walmart_img_2.png" WidthRequest="200" HeightRequest="200" />
+        <StackLayout Padding="10" Spacing="10">
+            <!-- Added padding and spacing for better layout -->
+
+            <!-- Added a header with a title -->
+            <Label Text="Welcome to Walmart" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+
+            <FlexLayout JustifyContent="Center" Wrap="Wrap" Margin="0,10,0,0">
+                <!-- Centered the FlexLayout and added margin -->
+
+                <!-- Added images with rounded corners -->
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#F3722C">
+                    <!-- Orange background -->
+                    <Image Source="walmart_img_1.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#F94144">
+                    <!-- Red background -->
+                    <Image Source="walmart_img_2.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#F8961E">
+                    <!-- Yellow background -->
+                    <Image Source="walmart_img_3.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#90BE6D">
+                    <!-- Green background -->
+                    <Image Source="walmart_img_4.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+                
+            </FlexLayout>
 
         </StackLayout>
+
     </ScrollView>
 </ContentPage>
