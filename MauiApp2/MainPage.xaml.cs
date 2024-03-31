@@ -41,6 +41,9 @@ namespace MauiApp2
                     case "Lululemon":
                         await Navigation.PushAsync(new LuluContent());
                         break;
+                   case "Food Basics":
+                        await Navigation.PushAsync(new FoodbContent());
+                        break;
 
                 }
             }

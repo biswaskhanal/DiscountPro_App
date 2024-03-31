@@ -98,6 +98,9 @@
 	  <MauiXaml Update="CostcoContentt.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="FoodbContent.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="LuluContent.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
