@@ -2,10 +2,63 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp2.LuluContent">
     <ScrollView>
-        <StackLayout >
-            <Image Source="lulu_img_1.png" WidthRequest="200" HeightRequest="200" />
-            <Image Source="lulu_img_2.png" WidthRequest="200" HeightRequest="200" />
+        <StackLayout Padding="10" Spacing="10">
+            <!-- Added padding and spacing for better layout -->
+
+            <!-- Added a header with a title -->
+            <Label Text="Welcome to Walmart" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+
+            <FlexLayout JustifyContent="Center" Wrap="Wrap" Margin="0,10,0,0">
+                <!-- Centered the FlexLayout and added margin -->
+
+                <!-- Added images with rounded corners -->
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#F3722C">
+
+                    <Image Source="lulu_img_1.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#F94144">
+
+                    <Image Source="lulu_img_2.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#F8961E">
+
+                    <Image Source="lulu_img_3.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#90BE6D">
+
+                    <Image Source="lulu_img_4.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#90BE6D">
+
+                    <Image Source="lulu_img_5.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#90BE6D">
+
+                    <Image Source="lulu_img_6.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#90BE6D">
+
+                    <Image Source="lulu_img_7.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#90BE6D">
+
+                    <Image Source="lulu_img_8.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#90BE6D">
+
+                    <Image Source="lulu_img_9.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#90BE6D">
+
+                    <Image Source="lulu_img_10.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+            </FlexLayout>
 
         </StackLayout>
+
     </ScrollView>
 </ContentPage>

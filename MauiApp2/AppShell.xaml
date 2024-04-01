@@ -5,13 +5,17 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MauiApp2"
     Shell.FlyoutBehavior="Disabled"
-    Title="MauiApp2"
-    BackgroundColor="Blue">
+    Title="Discount App"
+    BackgroundColor="#3498db">
+    <!-- Changed BackgroundColor to a shade of blue -->
 
-    <ShellContent
-        Title="Discount pro"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-        
+    <!-- Defining a ShellItem for better organization -->
+    <ShellItem Title="Discount Pro" >
+        <!-- Main page content -->
+        <ShellContent
+            Title="Discounts"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+    </ShellItem>
 
 </Shell>
