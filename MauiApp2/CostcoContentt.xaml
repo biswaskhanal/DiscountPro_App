@@ -35,6 +35,26 @@
                     <!-- Dark blue background -->
                     <Image Source="costco_img_5.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#17202A">
+                    <!-- Dark blue background -->
+                    <Image Source="costco_img_6.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#17202A">
+                    <!-- Dark blue background -->
+                    <Image Source="costco_img_7.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#17202A">
+                    <!-- Dark blue background -->
+                    <Image Source="costco_img_8.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#17202A">
+                    <!-- Dark blue background -->
+                    <Image Source="costco_img_9.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#17202A">
+                    <!-- Dark blue background -->
+                    <Image Source="costco_img_10.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+                </Frame>
             </FlexLayout>
 
         </StackLayout>
