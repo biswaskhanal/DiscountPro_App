@@ -13,46 +13,46 @@
 
                 <!-- Added images with rounded corners -->
                 <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#FF5733">
-                    <!-- Orange background -->
+                    
                     <Image Source="costco_img_1.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
 
                 <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#C70039">
-                    <!-- Dark red background -->
+                  
                     <Image Source="costco_img_2.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
 
                 <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#900C3F">
-                    <!-- Purple background -->
+                   
                     <Image Source="costco_img_3.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
 
                 <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#581845">
-                    <!-- Dark purple background -->
+                    
                     <Image Source="costco_img_4.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
                 <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#17202A">
-                    <!-- Dark blue background -->
+                   
                     <Image Source="costco_img_5.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
                 <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#17202A">
-                    <!-- Dark blue background -->
+                    
                     <Image Source="costco_img_6.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
                 <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#17202A">
-                    <!-- Dark blue background -->
+                   
                     <Image Source="costco_img_7.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
                 <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#17202A">
-                    <!-- Dark blue background -->
+                    
                     <Image Source="costco_img_8.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
                 <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#17202A">
-                    <!-- Dark blue background -->
+                    
                     <Image Source="costco_img_9.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
                 <Frame CornerRadius="10" HasShadow="True" BackgroundColor="#17202A">
-                    <!-- Dark blue background -->
+                   
                     <Image Source="costco_img_10.png" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
                 </Frame>
             </FlexLayout>
