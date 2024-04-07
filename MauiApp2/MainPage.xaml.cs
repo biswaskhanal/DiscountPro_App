@@ -1,10 +1,14 @@
 ﻿using Microsoft.Maui.Controls;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace MauiApp2
 {
     public partial class MainPage : ContentPage
     {
+        private List<Store> stores; // Declare stores at the class level
+
         public MainPage()
         {
             InitializeComponent();
@@ -13,7 +17,8 @@ namespace MauiApp2
 
         private void LoadStores()
         {
-            List<Store> stores = new List<Store> ///// List of stores with name and logo
+            // Initialize the stores list
+            stores = new List<Store>
             {
                 new Store { Name = "Walmart", Logo = "walmart.png" },
                 new Store { Name = "Costco", Logo = "costco.png" },
@@ -23,6 +28,7 @@ namespace MauiApp2
                 new Store { Name = "Food Basics", Logo = "foodb.jpeg" }
             };
 
+            // Set the list view item source
             storeListView.ItemsSource = stores;
         }
 
@@ -41,15 +47,29 @@ namespace MauiApp2
                     case "Lululemon":
                         await Navigation.PushAsync(new LuluContent());
                         break;
-                   case "Food Basics":
+                    case "Food Basics":
                         await Navigation.PushAsync(new FoodbContent());
                         break;
-
                 }
             }
         }
 
+        private void OnSearchButtonPressed(object sender, EventArgs e)
+        {
+            string searchText = searchBar.Text.ToLower();
 
+            // Filter the list of stores based on the search query
+            List<Store> filteredStores = stores.Where(s => s.Name.ToLower().Contains(searchText)).ToList();
+
+            // Update the ListView with the filtered stores
+            storeListView.ItemsSource = filteredStores;
+
+            // Clear the search bar text if it's empty
+            if (string.IsNullOrWhiteSpace(searchText))
+            {
+                storeListView.ItemsSource = stores; // Revert to original list
+            }
+        }
     }
 
     public class Store
@@ -57,4 +77,5 @@ namespace MauiApp2
         public string Name { get; set; }
         public string Logo { get; set; }
     }
+
 }
