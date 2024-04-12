@@ -50,6 +50,12 @@ namespace MauiApp2
                     case "Food Basics":
                         await Navigation.PushAsync(new FoodbContent());
                         break;
+                    case "Nike":
+                        await Navigation.PushAsync(new NikeContent());
+                        break;
+                    case "Real Canadian Superstore":
+                        await Navigation.PushAsync(new RealStoreContent());
+                        break;
                 }
             }
         }

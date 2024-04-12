@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Maui.Controls;
+using System;
 
 namespace MauiApp2
 {
-    class NikeContent
+    public partial class NikeContent : ContentPage
     {
+        public NikeContent()
+        {
+            InitializeComponent();
+        }
+
     }
 }
