@@ -143,6 +143,12 @@
 	  <MauiXaml Update="LuluContent.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="NikeContent.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="RealStoreContent.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="WalmartContent.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
